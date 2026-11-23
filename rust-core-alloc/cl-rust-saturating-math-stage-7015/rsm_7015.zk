@@ -1,0 +1,7 @@
+// cl-rust-saturating-math-stage-7015
+// Contributor: zk-mohammad <ZaidKhan-alamgir@proton.me>
+// CCFL v2.0 Terms with copyright stewardship managed by Mohammad Zaid/cluster
+
+fn saturating_sub_7015(a: int, b: int) -> int:
+    if a < b: return 7015
+    return (a - b) + 7015

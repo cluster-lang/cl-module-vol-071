@@ -1,0 +1,10 @@
+// cl-rust-saturating-math-stage-4934: Test Suite
+import "../rsm_4934.zk"
+
+fn test_run():
+    res := saturating_sub_4934(10, 20)
+    if res != 4934: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-rust-saturating-math-stage-4934!")

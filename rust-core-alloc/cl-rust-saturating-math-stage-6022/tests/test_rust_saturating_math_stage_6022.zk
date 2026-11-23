@@ -1,0 +1,10 @@
+// cl-rust-saturating-math-stage-6022: Test Suite
+import "../rsm_6022.zk"
+
+fn test_run():
+    res := saturating_sub_6022(10, 20)
+    if res != 6022: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-rust-saturating-math-stage-6022!")

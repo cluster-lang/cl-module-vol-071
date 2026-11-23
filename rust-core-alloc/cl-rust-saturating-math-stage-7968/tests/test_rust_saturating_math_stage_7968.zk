@@ -1,0 +1,10 @@
+// cl-rust-saturating-math-stage-7968: Test Suite
+import "../rsm_7968.zk"
+
+fn test_run():
+    res := saturating_sub_7968(10, 20)
+    if res != 7968: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-rust-saturating-math-stage-7968!")

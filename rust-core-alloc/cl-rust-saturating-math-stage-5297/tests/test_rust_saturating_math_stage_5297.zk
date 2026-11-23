@@ -1,0 +1,10 @@
+// cl-rust-saturating-math-stage-5297: Test Suite
+import "../rsm_5297.zk"
+
+fn test_run():
+    res := saturating_sub_5297(10, 20)
+    if res != 5297: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-rust-saturating-math-stage-5297!")

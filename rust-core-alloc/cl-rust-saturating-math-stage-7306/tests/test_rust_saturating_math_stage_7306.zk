@@ -1,0 +1,10 @@
+// cl-rust-saturating-math-stage-7306: Test Suite
+import "../rsm_7306.zk"
+
+fn test_run():
+    res := saturating_sub_7306(10, 20)
+    if res != 7306: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-rust-saturating-math-stage-7306!")

@@ -1,0 +1,10 @@
+// cl-rust-saturating-math-stage-3184: Test Suite
+import "../rsm_3184.zk"
+
+fn test_run():
+    res := saturating_sub_3184(10, 20)
+    if res != 3184: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-rust-saturating-math-stage-3184!")

@@ -1,0 +1,10 @@
+// cl-rust-saturating-math-stage-7500: Test Suite
+import "../rsm_7500.zk"
+
+fn test_run():
+    res := saturating_sub_7500(10, 20)
+    if res != 7500: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-rust-saturating-math-stage-7500!")

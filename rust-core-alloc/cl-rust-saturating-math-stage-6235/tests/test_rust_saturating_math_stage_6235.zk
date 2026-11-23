@@ -1,0 +1,10 @@
+// cl-rust-saturating-math-stage-6235: Test Suite
+import "../rsm_6235.zk"
+
+fn test_run():
+    res := saturating_sub_6235(10, 20)
+    if res != 6235: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-rust-saturating-math-stage-6235!")

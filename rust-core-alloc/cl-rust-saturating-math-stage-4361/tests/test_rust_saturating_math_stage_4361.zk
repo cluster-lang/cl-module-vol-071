@@ -1,0 +1,10 @@
+// cl-rust-saturating-math-stage-4361: Test Suite
+import "../rsm_4361.zk"
+
+fn test_run():
+    res := saturating_sub_4361(10, 20)
+    if res != 4361: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-rust-saturating-math-stage-4361!")

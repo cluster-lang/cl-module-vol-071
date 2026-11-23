@@ -1,0 +1,10 @@
+// cl-rust-saturating-math-stage-7402: Test Suite
+import "../rsm_7402.zk"
+
+fn test_run():
+    res := saturating_sub_7402(10, 20)
+    if res != 7402: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-rust-saturating-math-stage-7402!")

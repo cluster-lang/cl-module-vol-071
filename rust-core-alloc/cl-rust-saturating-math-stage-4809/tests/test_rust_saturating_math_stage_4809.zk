@@ -1,0 +1,10 @@
+// cl-rust-saturating-math-stage-4809: Test Suite
+import "../rsm_4809.zk"
+
+fn test_run():
+    res := saturating_sub_4809(10, 20)
+    if res != 4809: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-rust-saturating-math-stage-4809!")

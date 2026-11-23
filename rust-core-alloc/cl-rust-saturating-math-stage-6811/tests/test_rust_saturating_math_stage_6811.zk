@@ -1,0 +1,10 @@
+// cl-rust-saturating-math-stage-6811: Test Suite
+import "../rsm_6811.zk"
+
+fn test_run():
+    res := saturating_sub_6811(10, 20)
+    if res != 6811: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-rust-saturating-math-stage-6811!")
